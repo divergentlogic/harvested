@@ -51,6 +51,9 @@ module Harvest
     property :default_expense_project_id
     property :identity_url
     property :timestamp_timers
+    property :can_create_invoices
+    property :can_create_projects
+    property :can_see_rates
     
     alias_method :active?, :is_active
     alias_method :admin?, :is_admin
