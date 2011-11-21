@@ -37,6 +37,7 @@ module Harvest
     property :kind
     property :import_hours
     property :import_expenses
+    property :created_by_id
     
     def self.json_root; "doc"; end
     # skip_json_root true
